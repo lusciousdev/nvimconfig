@@ -30,7 +30,7 @@ vim.diagnostic.config({
   virtual_text = { current_line = true },
 })
 
-vim.lsp.set_log_level("debug")
+vim.lsp.set_log_level("warn")
 
 vim.keymap.set("n", "<leader>o", ":update<CR> :source<CR>")
 vim.keymap.set("n", "<leader>w", ":write<CR>")
